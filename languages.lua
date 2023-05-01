@@ -49,7 +49,7 @@ local LANGUAGES = {
         exec("xmake", "create", "-l", "c++", "-P", ".")
     end,
     ["Objective-C"] = function()
-        exec("xmake", "create", "-l", "c++", "-P", ".")
+        exec("xmake", "create", "-l", "objc", "-P", ".")
     end,
     ["Java"] = function()
         exec("gradle", "init", "--type", "java-application")
